@@ -1,19 +1,6 @@
-# 每日的坑
+# 等我想出来喜欢的话，就写在这里
 
-```
-$ give me super-powers
-```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
 
 
 
