@@ -42,7 +42,8 @@
         "-highlight",
         "url-embed",
         "page-footer-ex",
-        "hints"
+        "hints",
+        "prism-themes"
     ],
     "pluginsConfig": {
         "theme-default": {
