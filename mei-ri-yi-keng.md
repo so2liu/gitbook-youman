@@ -17,7 +17,17 @@ Usage
 $ git mergetool
 ```
 
+
+
 @[Zhihu](https://www.zhihu.com/question/21215715/answer/17540457)
+
+## VS Code
+### Install
+
+Do not use version from *Ubuntu Sotfware*. It's a snap version and you can't use pinyin input in it. 
+Downloading from [official link](https://code.visualstudio.com/download) can avoid this. 
+
+Use `code` in terminal. 
 
 ## Maybe I will read...
 
