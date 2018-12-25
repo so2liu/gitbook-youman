@@ -41,7 +41,7 @@ The second command will remove all saved command locations and make `code` => or
 
 ## Maybe I will read...
 
-* 如何系统地学习Node.js？  
+###如何系统地学习Node.js？  
 
   如果没有javascript基础建议先看「Eloquent Javascript」，篇幅不太长，可读性又比犀牛书好很多。  
 
@@ -53,7 +53,7 @@ The second command will remove all saved command locations and make `code` => or
 
   作者：[王楠](https://www.zhihu.com/question/21567720/answer/43837344)
 
-* [GTD 入门应该从哪些资料开始？](https://www.zhihu.com/question/23051794)  
+###[GTD 入门应该从哪些资料开始？](https://www.zhihu.com/question/23051794)  
 如果你是初学时间管理，千万别从GTD开始，那东西根本就不是初学者应该接触的东西，GTD这个系统本来也不是给初学者用的，整个系统过于复杂，难度过高.  
 初学者应该学什么：  
     - 番茄工作法：学会快速集中注意力，尽量一次完成一次事。
