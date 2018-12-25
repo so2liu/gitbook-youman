@@ -53,7 +53,30 @@ The second command will remove all saved command locations and make `code` => or
 
   作者：[王楠](https://www.zhihu.com/question/21567720/answer/43837344)
 
-Maybe used later...
+* [GTD 入门应该从哪些资料开始？](https://www.zhihu.com/question/23051794)  
+如果你是初学时间管理，千万别从GTD开始，那东西根本就不是初学者应该接触的东西，GTD这个系统本来也不是给初学者用的，整个系统过于复杂，难度过高.  
+初学者应该学什么：  
+    - 番茄工作法：学会快速集中注意力，尽量一次完成一次事。
+    - 要事第一：坚持每天完成第二象限（重要而不紧急）的事情。每天完成3-6件要事。
+    - 做好周回顾：每周花上一定时间对本周的事情做个总结和回顾。
+
+    时间管理初入门时一定别太复杂，规则越简单越好，找一些轻量化的效率工具来使用。
+
+
+
+    我在微信（read01）上发起的100天行动，完全符合这几项，只要你能坚持100天，时间管理就入门了，当你把这几件事形成习惯之后，再把精力放在GTD上，成功的机会能大一点。
+
+
+    100天行动规则：  
+    1. 每天坚持完成三个番茄工作法，一次只做一件事。  
+    2. 每天在早上10点半前完成当天工作中最重要的三件事，这三件事你可以在早上决定这件事是什么？  
+    3. 梦想番茄：每天用最少1个番茄时间完成你的梦想、重要而不紧急或你一直想做而没有行动的事情，比如学门新的技能、运动、外语、阅读。具体的事情你自己行动。  
+
+    这三项必须要选择一项进行，每天记录，每周总结。最好在手机用印象笔记之类的软件来记录.
+
+    作者：[warfalcon](https://www.zhihu.com/question/23051794/answer/24689356)
+
+May be useful later...
 
 {% hint style="info" %}
 Super-powers are granted randomly so please submit an issue if you're not happy with yours.
