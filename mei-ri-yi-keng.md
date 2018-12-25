@@ -29,6 +29,16 @@ Downloading from [official link](https://code.visualstudio.com/download) can avo
 
 Use `code` in terminal. 
 
+### Remove snap VS Code
+
+If sadly, you have already installed vscode by snap:
+```
+sudo snap remove vscode
+hash -r
+```
+The second command will remove all saved command locations and make `code` => original vscode again. 
+
+
 ## Maybe I will read...
 
 * 如何系统地学习Node.js？  
