@@ -62,10 +62,7 @@ The second command will remove all saved command locations and make `code` => or
 
     时间管理初入门时一定别太复杂，规则越简单越好，找一些轻量化的效率工具来使用。
 
-
-
     我在微信（read01）上发起的100天行动，完全符合这几项，只要你能坚持100天，时间管理就入门了，当你把这几件事形成习惯之后，再把精力放在GTD上，成功的机会能大一点。
-
 
     100天行动规则：  
     1. 每天坚持完成三个番茄工作法，一次只做一件事。  
@@ -75,6 +72,8 @@ The second command will remove all saved command locations and make `code` => or
     这三项必须要选择一项进行，每天记录，每周总结。最好在手机用印象笔记之类的软件来记录.
 
     作者：[warfalcon](https://www.zhihu.com/question/23051794/answer/24689356)
+
+
 
 May be useful later...
 
