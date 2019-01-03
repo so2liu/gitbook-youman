@@ -38,6 +38,15 @@ hash -r
 
 The second command will remove all saved command locations and make `code` =&gt; original vscode again.
 
+## [Gadgetron](http://gadgetron.github.io/)
+### Install JDK and HDF Viewer
+> sudo apt-get install hdfviewer ==> `[warning] /usr/bin/hdfview: JVM flavor 'sun' not understood`
+
+Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
+1. Install JDK, add to PATH
+2. `sudo apt-get install hdfviewer` still doesn't work. 
+3. Installing beta version 3.0.0 following [this](https://askubuntu.com/questions/907159/hdfview-working-in-ubuntu-17-04) works. 
+
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
