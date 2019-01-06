@@ -47,6 +47,23 @@ Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 2. `sudo apt-get install hdfviewer` still doesn't work. 
 3. Installing beta version 3.0.0 following [this](https://askubuntu.com/questions/907159/hdfview-working-in-ubuntu-17-04) works. 
 
+## Anaconda
+### Init
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.  
+If your shell is Bash or a Bourne variant, enable conda for the current user with  
+
+```$ echo ". /home/so2liu/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc```  
+
+or, for all users, enable conda with  
+
+```$ sudo ln -s /home/so2liu/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh```
+
+The options above will permanently enable the 'conda' command, but they do NOT
+put conda's base (root) environment on PATH.  To do so, run  
+
+```$ conda activate```
+
+
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
