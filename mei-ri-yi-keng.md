@@ -63,6 +63,9 @@ put conda's base (root) environment on PATH.  To do so, run
 
 ```$ conda activate```
 
+## Server in ISS
+### pip
+In `linse3`, `pip` is for `python 3.4`. (Use `pip --version` to ensure this.) Use `pip3 install xxx --user` to install module for `python 3.6` local user.  
 
 ## Maybe I will read...
 
