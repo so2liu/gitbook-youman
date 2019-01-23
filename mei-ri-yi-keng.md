@@ -24,7 +24,8 @@ $ git mergetool
 1. Start the ssh-agent in the background.  
 ``` eval "$(ssh-agent -s)"```
 
-2. ```ssh-add ~/.ssh/id_rsa```
+2. ```ssh-add ~/.ssh/id_rsa```  
+
 ## VS Code
 
 ### Install
