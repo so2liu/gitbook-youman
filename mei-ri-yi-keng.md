@@ -19,6 +19,12 @@ $ git mergetool
 
 @[Zhihu](https://www.zhihu.com/question/21215715/answer/17540457)
 
+### Adding SSH key to SSH agent
+
+1. Start the ssh-agent in the background.  
+``` eval "$(ssh-agent -s)"```
+
+2. ```ssh-add ~/.ssh/id_rsa```
 ## VS Code
 
 ### Install
