@@ -17,7 +17,7 @@ Usage
 $ git mergetool
 ```
 
-@[Zhihu](https://www.zhihu.com/question/21215715/answer/17540457)
+[@Zhihu](https://www.zhihu.com/question/21215715/answer/17540457)
 
 ### Adding SSH key to SSH agent
 
@@ -30,8 +30,31 @@ $ git mergetool
 - ```no 'ngerma' error```:   
   ```sudo apt-get texlive-lang-german```
 - ```no 'siunitx.sty' error```:   
-  ```sudo apt-get texlive-science```
+  ```sudo apt-get texlive-science```  
 
+### Pseudocode
+[@LatexWiki]{https://en.wikibooks.org/wiki/LaTeX/Algorithms}  
+
+The package is loaded like
+```\usepackage[]{algorithm2e}```  
+and a simple example, taken from the v4.01 manual, is
+```
+\begin{algorithm}[H]
+ \KwData{this text}
+ \KwResult{how to write algorithm with \LaTeX2e }
+ initialization\;
+ \While{not at end of this document}{
+  read current\;
+  \eIf{understand}{
+   go to next section\;
+   current section becomes this one\;
+   }{
+   go back to the beginning of current section\;
+  }
+ }
+ \caption{How to write algorithms}
+\end{algorithm}
+```
 ## VS Code
 
 ### Install
