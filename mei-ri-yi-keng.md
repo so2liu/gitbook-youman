@@ -21,6 +21,12 @@ $ git mergetool
 
 @[Zhihu](https://www.zhihu.com/question/21215715/answer/17540457)
 
+## Latex
+- ```no 'ngerma' error```:   
+  ```sudo apt-get texlive-lang-german```
+- ```no 'siunitx.sty' error```:   
+  ```sudo apt-get texlive-science```
+
 ## VS Code
 ### Install
 
