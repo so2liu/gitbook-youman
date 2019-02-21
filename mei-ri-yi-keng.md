@@ -32,10 +32,11 @@ $ git mergetool
 - ```no 'siunitx.sty' error```:   
   ```sudo apt-get texlive-science```  
 
-### Pseudocode
-[@LatexWiki]{https://en.wikibooks.org/wiki/LaTeX/Algorithms}  
+### Pseudocode  
 
-The package is loaded like
+[@LatexWiki](https://en.wikibooks.org/wiki/LaTeX/Algorithms)  
+
+The package is loaded like  
 ```\usepackage[]{algorithm2e}```  
 and a simple example, taken from the v4.01 manual, is   
 
