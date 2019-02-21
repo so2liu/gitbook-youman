@@ -37,7 +37,8 @@ $ git mergetool
 
 The package is loaded like
 ```\usepackage[]{algorithm2e}```  
-and a simple example, taken from the v4.01 manual, is
+and a simple example, taken from the v4.01 manual, is   
+
 ```
 \begin{algorithm}[H]
  \KwData{this text}
