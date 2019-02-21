@@ -37,7 +37,7 @@ $ git mergetool
 [@LatexWiki](https://en.wikibooks.org/wiki/LaTeX/Algorithms)  
 
 The package is loaded like  
-```\usepackage[]{algorithm2e}```  
+`\usepackage[]{algorithm2e}`  
 and a simple example, taken from the v4.01 manual, is   
 
 ```
