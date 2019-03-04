@@ -85,6 +85,9 @@ Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 2. `sudo apt-get install hdfviewer` still doesn't work. 
 3. Installing beta version 3.0.0 following [this](https://askubuntu.com/questions/907159/hdfview-working-in-ubuntu-17-04) works. 
 
+### Tips
+- Please use ```conda activate``` instead of direct run. (Can't install by `cmake` => only install by `conda` => use `conda` environment)
+
 ## ISMRMRD
 Use `conda install -c inati ismrmrd-python` install `ismrmrd`.  
 Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.
