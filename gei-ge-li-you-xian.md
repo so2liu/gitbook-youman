@@ -1,6 +1,8 @@
 # 给个理由先
+
 ## Javascript
-```
+
+```text
 function greaterThan(n) {
 return m => m > n;
 }
@@ -9,7 +11,7 @@ console.log(greaterThan10(11));
 // → true
 ```
 
-```
+```text
 function noisy(f) {
 return (...args) => {
 console.log("calling with", args);

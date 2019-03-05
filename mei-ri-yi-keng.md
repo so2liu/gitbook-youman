@@ -21,26 +21,28 @@ $ git mergetool
 
 ### Adding SSH key to SSH agent
 
-1. Start the ssh-agent in the background.  
-``` eval "$(ssh-agent -s)"```
-
-2. ```ssh-add ~/.ssh/id_rsa```  
+1. Start the ssh-agent in the background. `eval "$(ssh-agent -s)"`
+2. `ssh-add ~/.ssh/id_rsa`
 
 ## Latex
-- ```no 'ngerma' error```:   
-  ```sudo apt-get texlive-lang-german```
-- ```no 'siunitx.sty' error```:   
-  ```sudo apt-get texlive-science```  
 
-### Pseudocode  
+* `no 'ngerma' error`:   
 
-[@LatexWiki](https://en.wikibooks.org/wiki/LaTeX/Algorithms)  
+  `sudo apt-get texlive-lang-german`
+
+* `no 'siunitx.sty' error`:   
+
+  `sudo apt-get texlive-science`  
+
+### Pseudocode
+
+[@LatexWiki](https://en.wikibooks.org/wiki/LaTeX/Algorithms)
 
 The package is loaded like  
 `\usepackage[]{algorithm2e}`  
-and a simple example, taken from the v4.01 manual, is   
+and a simple example, taken from the v4.01 manual, is
 
-```
+```text
 \begin{algorithm}[H]
  \KwData{this text}
  \KwResult{how to write algorithm with \LaTeX2e }
@@ -57,6 +59,7 @@ and a simple example, taken from the v4.01 manual, is
  \caption{How to write algorithms}
 \end{algorithm}
 ```
+
 ## VS Code
 
 ### Install
@@ -77,41 +80,48 @@ hash -r
 The second command will remove all saved command locations and make `code` =&gt; original vscode again.
 
 ## [Gadgetron](http://gadgetron.github.io/)
-### Install JDK and HDF Viewer
-> sudo apt-get install hdfviewer ==> `[warning] /usr/bin/hdfview: JVM flavor 'sun' not understood`
 
-Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).  
+### Install JDK and HDF Viewer
+
+> sudo apt-get install hdfviewer ==&gt; `[warning] /usr/bin/hdfview: JVM flavor 'sun' not understood`
+
+Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 
 1. Install JDK, add to PATH
 2. `sudo apt-get install hdfviewer` still doesn't work. 
 3. Installing beta version 3.0.0 following [this](https://askubuntu.com/questions/907159/hdfview-working-in-ubuntu-17-04) works. 
 
 ### Tips
-- Please use ```conda activate``` instead of direct run. (Can't install by `cmake` => only install by `conda` => use `conda` environment)
+
+* Please use `conda activate` instead of direct run. \(Can't install by `cmake` =&gt; only install by `conda` =&gt; use `conda` environment\)
 
 ## ISMRMRD
+
 Use `conda install -c inati ismrmrd-python` install `ismrmrd`.  
 Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.
 
 ## Anaconda
+
 ### Init
+
 CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.  
-If your shell is Bash or a Bourne variant, enable conda for the current user with  
+If your shell is Bash or a Bourne variant, enable conda for the current user with
 
-```$ echo ". /home/so2liu/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc```  
+`$ echo ". /home/so2liu/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc`
 
-or, for all users, enable conda with  
+or, for all users, enable conda with
 
-```$ sudo ln -s /home/so2liu/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh```
+`$ sudo ln -s /home/so2liu/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh`
 
-The options above will permanently enable the 'conda' command, but they do NOT
-put conda's base (root) environment on PATH.  To do so, run  
+The options above will permanently enable the 'conda' command, but they do NOT put conda's base \(root\) environment on PATH. To do so, run
 
-```$ conda activate```
+`$ conda activate`
 
 ## Server in ISS
+
 ### pip
-In `linse3`, `pip` is for `python 3.4`. (Use `pip --version` to ensure this.) Use `pip3 install xxx --user` to install module for `python 3.6` local user.  
+
+In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) Use `pip3 install xxx --user` to install module for `python 3.6` local user.
 
 ## Maybe I will read...
 
