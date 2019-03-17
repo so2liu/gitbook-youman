@@ -123,6 +123,9 @@ The options above will permanently enable the 'conda' command, but they do NOT p
 
 In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) Use `pip3 install xxx --user` to install module for `python 3.6` local user.
 
+## Python
+- In order to import py document in subfolder, there must be a `__init__.py` (even empty) in subfolder. This could solve the error such as `ImportError: No module named motion.CNN2D`. 
+
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
