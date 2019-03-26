@@ -97,8 +97,8 @@ Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 
 ## ISMRMRD
 
-Use `conda install -c inati ismrmrd-python` install `ismrmrd`.  
-Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.
+- Use `conda install -c inati ismrmrd-python` install `ismrmrd`. Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.  
+- `ismrmrd`, `ismrmrd-python`, `ismrmrd-python-tools` are three different lib. 
 
 ## Anaconda
 
