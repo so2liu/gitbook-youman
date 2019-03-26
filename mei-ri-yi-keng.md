@@ -126,6 +126,13 @@ In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) 
 ## Python
 - In order to import py document in subfolder, there must be a `__init__.py` (even empty) in subfolder. This could solve the error such as `ImportError: No module named motion.CNN2D`. 
 
+- `seaborn` save figure to pdf:
+```
+ax = sns.heatmap(time_matrix, annot=True, fmt=".2f", linewidths=.5, xticklabels=train_len_set, yticklabels=data_set_set)
+fig = ax.get_figure()
+fig.savefig('nn_time.pdf', dpi=400)
+``` 
+
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
