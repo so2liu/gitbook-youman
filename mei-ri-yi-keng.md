@@ -133,6 +133,11 @@ fig = ax.get_figure()
 fig.savefig('nn_time.pdf', dpi=400)
 ``` 
 
+## Package list for CNNArt
+- pydicom
+- dicom-numpy
+- scikit-learn
+- 
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
