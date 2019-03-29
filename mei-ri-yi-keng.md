@@ -137,6 +137,7 @@ fig.savefig('nn_time.pdf', dpi=400)
 - pydicom
 - dicom-numpy
 - scikit-learn
+- `conda install theano pygpu`
 - 
 ## Maybe I will read...
 
