@@ -139,6 +139,11 @@ fig.savefig('nn_time.pdf', dpi=400)
 - scikit-learn
 - `conda install theano pygpu`
 - 
+
+## Seaborn
+### heatmap
+[good code](https://www.cnblogs.com/lemonbit/p/7419851.html)
+
 ## Maybe I will read...
 
 ### 如何系统地学习Node.js？
