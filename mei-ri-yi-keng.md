@@ -132,13 +132,17 @@ ax = sns.heatmap(time_matrix, annot=True, fmt=".2f", linewidths=.5, xticklabels=
 fig = ax.get_figure()
 fig.savefig('nn_time.pdf', dpi=400)
 ``` 
-
-## Package list for CNNArt
+## CNNArt
+### Package list for CNNArt
 - pydicom
 - dicom-numpy
 - scikit-learn
 - `conda install theano pygpu`
 - `conda install -c conda-forge scikit-image`
+
+### 3DPatching
+![JPG](\img\3dpatching.jpg)
+
 
 ## Seaborn
 ### heatmap
