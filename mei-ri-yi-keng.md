@@ -141,7 +141,7 @@ fig.savefig('nn_time.pdf', dpi=400)
 - `conda install -c conda-forge scikit-image`
 
 ### 3DPatching
-![JPG](\img\3dpatching.jpg)
+![JPG](img\3dpatching.jpg)
 
 
 ## Seaborn
