@@ -132,6 +132,8 @@ ax = sns.heatmap(time_matrix, annot=True, fmt=".2f", linewidths=.5, xticklabels=
 fig = ax.get_figure()
 fig.savefig('nn_time.pdf', dpi=400)
 ``` 
+
+
 ## CNNArt
 ### Package list for CNNArt
 - pydicom
