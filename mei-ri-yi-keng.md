@@ -150,6 +150,10 @@ fig.savefig('nn_time.pdf', dpi=400)
 ### heatmap
 [good code](https://www.cnblogs.com/lemonbit/p/7419851.html)
 
+## DICOM
+### Grayscale to RGB
+- "xxx not int error": use `numpy.uint16` and `numpy.array.tobytes()`
+
 ## Maybe I will read...
 
 ### 好的博客
