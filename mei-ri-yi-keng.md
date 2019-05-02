@@ -99,6 +99,7 @@ Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 
 - Use `conda install -c inati ismrmrd-python` install `ismrmrd`. Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.  
 - `ismrmrd`, `ismrmrd-python`, `ismrmrd-python-tools` are three different lib. 
+- `ismrmrd-python` is written in `Python 2`. So watch out the indices, which are the results of division. (exp. 5/2 as a index of a list, in `Python 2` works. But in `Python 3` it's not integer anymore.) 
 
 ## Anaconda
 
