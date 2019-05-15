@@ -1,10 +1,11 @@
 # Daily or monthly
 
-Best wishes for daily update, not monthly. 
+Best wishes for daily update, not monthly.
 
 ## 2019年03月05日15:30:14
 
 ### Goals
+
 * Make a simple gadget, which can rotate the graph. 
 
 ### Tried
@@ -17,6 +18,7 @@ Best wishes for daily update, not monthly.
 * Matrix in `data.npy` is rotated. But the final output as `h5` document doesn't exist.  
 
 ### Thoughts
+
 * Can't change in fourier plane, but change it in after-reconstruction part.  
 * Figure out what happened in each gadgets. 
 
@@ -25,6 +27,4 @@ Best wishes for daily update, not monthly.
 ### Added
 
 * Introduced animals into the world, we believe they're going to be a neat addition.
-
-
 

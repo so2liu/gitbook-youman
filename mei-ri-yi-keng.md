@@ -26,13 +26,13 @@ $ git mergetool
 
 ## Latex
 
-* `no 'ngerma' error`:   
+* `no 'ngerma' error`:
 
   `sudo apt-get texlive-lang-german`
 
-* `no 'siunitx.sty' error`:   
+* `no 'siunitx.sty' error`:
 
-  `sudo apt-get texlive-science`  
+  `sudo apt-get texlive-science`
 
 ### Pseudocode
 
@@ -97,9 +97,9 @@ Follow [this](https://blog.csdn.net/Solomon1558/article/details/52490910).
 
 ## ISMRMRD
 
-- Use `conda install -c inati ismrmrd-python` install `ismrmrd`. Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.  
-- `ismrmrd`, `ismrmrd-python`, `ismrmrd-python-tools` are three different lib. 
-- `ismrmrd-python` is written in `Python 2`. So watch out the indices, which are the results of division. (exp. 5/2 as a index of a list, in `Python 2` works. But in `Python 3` it's not integer anymore.) 
+* Use `conda install -c inati ismrmrd-python` install `ismrmrd`. Don't know why but from `cmake` installation, `import ismrmrd` doesn't work.  
+* `ismrmrd`, `ismrmrd-python`, `ismrmrd-python-tools` are three different lib. 
+* `ismrmrd-python` is written in `Python 2`. So watch out the indices, which are the results of division. \(exp. 5/2 as a index of a list, in `Python 2` works. But in `Python 3` it's not integer anymore.\) 
 
 ## Anaconda
 
@@ -125,44 +125,51 @@ The options above will permanently enable the 'conda' command, but they do NOT p
 In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) Use `pip3 install xxx --user` to install module for `python 3.6` local user.
 
 ## Python
-- In order to import py document in subfolder, there must be a `__init__.py` (even empty) in subfolder. This could solve the error such as `ImportError: No module named motion.CNN2D`. 
 
-- `seaborn` save figure to pdf:
-```
-ax = sns.heatmap(time_matrix, annot=True, fmt=".2f", linewidths=.5, xticklabels=train_len_set, yticklabels=data_set_set)
-fig = ax.get_figure()
-fig.savefig('nn_time.pdf', dpi=400)
-``` 
+* In order to import py document in subfolder, there must be a `__init__.py` \(even empty\) in subfolder. This could solve the error such as `ImportError: No module named motion.CNN2D`.
+* `seaborn` save figure to pdf:
 
+  ```text
+  ax = sns.heatmap(time_matrix, annot=True, fmt=".2f", linewidths=.5, xticklabels=train_len_set, yticklabels=data_set_set)
+  fig = ax.get_figure()
+  fig.savefig('nn_time.pdf', dpi=400)
+  ```
 
 ## CNNArt
+
 ### Package list for CNNArt
-- pydicom
-- dicom-numpy
-- scikit-learn
-- `conda install theano pygpu`
-- `conda install -c conda-forge scikit-image`
+
+* pydicom
+* dicom-numpy
+* scikit-learn
+* `conda install theano pygpu`
+* `conda install -c conda-forge scikit-image`
 
 ### 3DPatching
-![JPG](img\3dpatching.jpg)
 
+![JPG](https://github.com/so2liu/gitbook-youman/tree/4f8ae311341bce3256a57771297be8646d5314e8/img/3dpatching.jpg)
 
 ## Seaborn
+
 ### heatmap
+
 [good code](https://www.cnblogs.com/lemonbit/p/7419851.html)
 
 ## DICOM
+
 ### Grayscale to RGB
-- "xxx not int error": use `numpy.uint16` and `numpy.array.tobytes()`
+
+* "xxx not int error": use `numpy.uint16` and `numpy.array.tobytes()`
 
 ## Maybe I will read...
 
 ### iOS成长之路
-我在2017年7月失去了上一份工作。从此走上了创业之路。我认定未来是程序的世界，而开发应用除了需要投入个人的精力之外，并无其他成本。所以我决定几乎从零开始，自学开发。之前只在大学学过谭浩强版的C语言。
-[你都用你的Mac干了些啥？写代码行么？能创业赚钱么？](https://zhuanlan.zhihu.com/p/63088872)
+
+我在2017年7月失去了上一份工作。从此走上了创业之路。我认定未来是程序的世界，而开发应用除了需要投入个人的精力之外，并无其他成本。所以我决定几乎从零开始，自学开发。之前只在大学学过谭浩强版的C语言。 [你都用你的Mac干了些啥？写代码行么？能创业赚钱么？](https://zhuanlan.zhihu.com/p/63088872)
 
 ### 好的博客
-- [神经网络入门code](http://yangguang2009.github.io/)
+
+* [神经网络入门code](http://yangguang2009.github.io/)
 
 ### 如何系统地学习Node.js？
 
