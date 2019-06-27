@@ -149,6 +149,25 @@ In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) 
 
 ![JPG](https://github.com/so2liu/gitbook-youman/tree/4f8ae311341bce3256a57771297be8646d5314e8/img/3dpatching.jpg)
 
+### Label file's structure
+For example, the structure of the label file `med_data/ImageSimilarity/Databases/MRPhysics/Paper_Markings/16_mj.json` is like `M['layer']['t2_tse_tra_fs_Becken_Motion_0011']['293029']['vertices']`. Until `'293029'` it's all dict. `29` is the image index, `3` means using mask_rectangle, mask_ellipse or mask_tasso. Details could be found in `untils/data.py create_MASK_Array`. Keys `vertices` and `codes` are used for `matplotlib.path`. A simple code could be helpful:
+```
+mask_path = M['layer']['t2_tse_tra_fs_Becken_Motion_0011']['293029']
+vertices, codes = np.array(mask_path['vertices']), M['layer']['t2_tse_tra_fs_Becken_Motion_0011']['293029']['codes']
+path = Path(vertices, codes)
+
+pathpatch = PathPatch(path, facecolor='green', edgecolor='green')
+
+fig, ax = plt.subplots()
+ax.add_patch(pathpatch)
+
+ax.dataLim.update_from_data_xy(vertices)
+ax.autoscale_view()
+
+plt.savefig("conpund.png")
+plt.show()
+```
+
 ## Seaborn
 
 ### heatmap
