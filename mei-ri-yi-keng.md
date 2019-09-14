@@ -4,6 +4,13 @@ description: 'A bug a day, keeps the doctor away~'
 
 # Bug every day \(每日一坑\)
 
+## Docker
+`systemctl start docker`
+
+### Docker with GUI management
+`$ docker volume create portainer_data`
+`$ docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer`
+
 ## Git
 
 ### Merge conflicts: try **meld**
