@@ -156,6 +156,11 @@ In `linse3`, `pip` is for `python 3.4`. \(Use `pip --version` to ensure this.\) 
 * `conda install theano pygpu`
 * `conda install -c conda-forge scikit-image`
 
+### Change keras backend
+`ValueError: Tensor Tensor("segmentation_output/truediv:0", shape=(?, 128, 128, 16, 2), dtype=float32) is not an element of this graph.`
+
+Change config file `$HOME/.keras/keras.json`
+
 ### 3DPatching
 
 ![JPG](https://github.com/so2liu/gitbook-youman/tree/4f8ae311341bce3256a57771297be8646d5314e8/img/3dpatching.jpg)
